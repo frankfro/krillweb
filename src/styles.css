@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+html,body {
+  background:black !important;
+  color: white;
+}
+
+#header {
+  margin-top: 30px;
+}
+.bold {
+  background:lightgray !important;
+  font-weight: bold;
+}
+
+.biopanel {
+  background:black !important;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+.bc {
+  background:black !important;
+  color: white;
+}
+.bg {
+  /* The image used */
+  background-image: url("assets/pics/name.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus{
+  background-color: #303136 !important;
+  border: medium none;
+  border-radius: 0;
+}
+
+.tab-content{
+  background-color:#303136;
+  padding:10px
+}
+.nav>li>a {
+  color: white;
+}
+
+#home {
+  height: 400px;
+}
+
+/*audio { width: 200px; }*/
