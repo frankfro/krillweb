@@ -50,7 +50,46 @@ html,body {
 }
 
 #home {
-  height: 400px;
+  height: 50em;
 }
 
-/*audio { width: 200px; }*/
+.glyphicon-xl {
+  font-size: 8em;
+}
+.glyphicon-lg {
+  font-size: 2em;
+}
+
+.navbar-fixed-bottom {
+  min-height: 12em;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  line-height: 10em;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav > li > a {
+    line-height: 10em;
+    padding-top: 5em;
+    padding-bottom: 10px;}
+}
+.vertical-align {
+  padding-top: 5em;
+  position: relative;
+}
+
+.vertical-align-xl {
+  padding-top: 15em;
+  position: relative;
+}
+
+audio { height: 2em; }
+
+.product .img-responsive {
+  margin: 0 auto;
+}
+
+
