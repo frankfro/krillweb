@@ -1,0 +1,14 @@
+div {
+  background:black !important;
+  color: white;
+}
+
+.vertical-align {
+padding-top: 5em;
+position: relative;
+}
+
+.vertical-align-xl {
+padding-top: 15em;
+position: relative;
+}

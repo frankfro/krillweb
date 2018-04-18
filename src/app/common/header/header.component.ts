@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  style : string = "jumbotron bc";
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  changeStyle($event){
+    this.style = $event.type == 'mouseover' ? 'jumbotron black-bg' : "jumbotron bc";
   }
 
 }

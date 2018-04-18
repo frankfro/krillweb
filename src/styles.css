@@ -1,5 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
-html,body {
+/*!* You can add global styles to this file, and also import other style files *!*/
+body {
+  background:black !important;
+  color: white;
+}
+
+.bc {
   background:black !important;
   color: white;
 }
@@ -12,16 +17,7 @@ html,body {
   font-weight: bold;
 }
 
-.biopanel {
-  background:black !important;
-  font-weight: bold;
-  padding-left: 2px;
-}
 
-.bc {
-  background:black !important;
-  color: white;
-}
 .bg {
   /* The image used */
   background-image: url("assets/pics/name.png");
@@ -35,23 +31,11 @@ html,body {
   background-size: cover;
 }
 
-.nav-tabs > li > a:hover, .nav-tabs > li > a:focus{
-  background-color: #303136 !important;
-  border: medium none;
-  border-radius: 0;
-}
 
-.tab-content{
-  background-color:#303136;
-  padding:10px
-}
-.nav>li>a {
-  color: white;
-}
 
-#home {
-  height: 50em;
-}
+/*#home {*/
+  /*height: 50em;*/
+/*}*/
 
 .glyphicon-xl {
   font-size: 8em;
@@ -60,33 +44,9 @@ html,body {
   font-size: 2em;
 }
 
-.navbar-fixed-bottom {
-  min-height: 12em;
-}
 
-.navbar-nav > li > a {
-  padding-top: 10em;
-  padding-bottom: 10em;
-  line-height: 10em;
-}
 
-@media (max-width: 767px) {
-  .navbar-nav > li > a {
-    line-height: 10em;
-    padding-top: 5em;
-    padding-bottom: 10px;}
-}
-.vertical-align {
-  padding-top: 5em;
-  position: relative;
-}
-
-.vertical-align-xl {
-  padding-top: 15em;
-  position: relative;
-}
-
-audio { height: 2em; }
+/*audio { height: 2em; }*/
 
 .product .img-responsive {
   margin: 0 auto;
