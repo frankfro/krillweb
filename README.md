@@ -27,7 +27,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-aws s3 mb s3://a5bucket
-aws s3 sync . s3://a5bucket --acl public-read
-aws s3 website s3://a5bucket --index-document index.html --error-document index.html
-http://a5bucket.s3-website.us-east-2.amazonaws.com
+
