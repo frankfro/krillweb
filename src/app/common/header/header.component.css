@@ -1,28 +1,56 @@
-.nav-tabs > li > a:hover, .nav-tabs > li > a:focus{
-  background-color: white !important;
-  color: black;
+/*.nav-tabs > li > a:hover, .nav-tabs > li > a:focus{*/
+  /*background-color: white !important;*/
+  /*color: black;*/
+/*}*/
+
+
+/*div {*/
+  /*background:black !important;*/
+  /*color: white;*/
+/*}*/
+
+/*.black-bg {*/
+  /*background:black !important;*/
+  /*color: white;*/
+/*}*/
+
+/*.tab-content{*/
+  /*background-color:#303136;*/
+  /*padding:10px*/
+/*}*/
+/*.nav>li>a {*/
+  /*color: white;*/
+/*}*/
+
+/*.navbar {*/
+  /*background-color: #99ccff;*/
+  /*border-bottom: 0;*/
+/*}*/
+
+body {
+  margin: 10px;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
 
-
-div {
-  background:black !important;
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
   color: white;
+  font-size: 36px;
 }
 
-.black-bg {
-  background:black !important;
-  color: white;
+.icon-bar a:hover {
+  background-color: #000;
 }
 
-.tab-content{
-  background-color:#303136;
-  padding:10px
-}
-.nav>li>a {
-  color: white;
+.active {
+  background-color: #4CAF50 !important;
 }
 
-.navbar {
-  background-color: #99ccff;
-  border-bottom: 0;
-}

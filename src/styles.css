@@ -1,41 +1,41 @@
-/*!* You can add global styles to this file, and also import other style files *!*/
-body {
-  background:black !important;
-  color: white;
-}
-
-.bc {
-  background:black !important;
-  color: white;
-}
-
-#header {
-  margin-top: 30px;
-}
-.bold {
-  background:lightgray !important;
-  font-weight: bold;
-}
-
-
-.bg {
-  /* The image used */
-  background-image: url("assets/pics/name.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-
-/*#home {*/
-  /*height: 50em;*/
+/*!*!* You can add global styles to this file, and also import other style files *!*!*/
+/*body {*/
+  /*background:black !important;*/
+  /*color: white;*/
 /*}*/
+
+/*.bc {*/
+  /*background:black !important;*/
+  /*color: white;*/
+/*}*/
+
+/*#header {*/
+  /*margin-top: 30px;*/
+/*}*/
+/*.bold {*/
+  /*background:lightgray !important;*/
+  /*font-weight: bold;*/
+/*}*/
+
+
+/*.bg {*/
+  /*!* The image used *!*/
+  /*background-image: url("assets/pics/name.png");*/
+
+  /*!* Full height *!*/
+  /*height: 100%;*/
+
+  /*!* Center and scale the image nicely *!*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+/*}*/
+
+
+
+/*!*#home {*!*/
+  /*!*height: 50em;*!*/
+/*!*}*!*/
 
 .glyphicon-xl {
   font-size: 8em;
@@ -46,10 +46,10 @@ body {
 
 
 
-audio { height: 2em; width: 16em }
+/*!*audio { height: 2em; width: 16em }*!*/
 
-.product .img-responsive {
-  margin: 0 auto;
-}
+/*.product .img-responsive {*/
+  /*margin: 0 auto;*/
+/*}*/
 
 

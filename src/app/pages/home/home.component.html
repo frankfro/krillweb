@@ -2,7 +2,7 @@
   div {
     width: 40em;
     height: 40em;
-    background-color: black;
+    background-color: white;
     position: relative;
      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
      -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
@@ -31,9 +31,12 @@
     75%  {background-color:green; left:0px; top:20em;}
     100% {background-color:red; left:0px; top:0px;}
   }
+  img {
+    max-width: 100%;
+  }
 </style>
 
 <div class="container product img-responsive">
-  <div class="row"><div class="col-md-6"><img src="assets/pics/name.png" sizes="40" ></div> </div>
+  <div class="row"><div class="col-md-6 col-xs-12"><img src="assets/pics/name.png" sizes="40" ></div> </div>
  <!-- <img src="assets/pics/large-icon-2.png" >-->
 </div>
