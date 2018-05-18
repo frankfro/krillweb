@@ -1,15 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import {TracksComponentModel} from "./tracks.component.model";
-
-@Component({
-  selector: 'app-portfolio',
-  templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.css']
-})
-export class PortfolioComponent implements OnInit {
-
-  public tracks = [
-    new TracksComponentModel('Hollywood Driving Strings(3).mp3','Hollywood Driving Strings',''),
+    new TracksComponentModel('Hollywood Driving Strings(3).mp3','Hollywood Driving Strings','','A fast intense music track signifying the build up to a major turning point or upheaval. A crescendo in the story or drama.'),
     new TracksComponentModel('Arrival strings (with dramatic violin lead).mp3','Arrival Strings',''),
     new TracksComponentModel('moby(3).mp3','Eclectic Electronica',''),
     new TracksComponentModel('oh vox.mp3','Eclectic Pop Beat Short Alternate Version',''),
@@ -47,19 +36,3 @@ export class PortfolioComponent implements OnInit {
     new TracksComponentModel('Violin to Suspense Ending .mp3','Violin to Suspense Ending',''),
     new TracksComponentModel('advertisement.mp3','Guitar Rock Advertisement (rough demo)','')
   ];
-
-
-  constructor() { }
-
-
-  ngOnInit() {
-  }
-
-  public selectedName:any;
-
-  public highlightRow(track) {
-    this.selectedName = track.name;
-  }
-
-
-}

@@ -1,13 +1,13 @@
 <div class="container">
   <div class="row" *ngFor="let track of tracks" >
-    <div *ngIf="track.name == selectedName" class="col-xs-12 col-lg-8" >
+    <div *ngIf="track.name == selectedName" class="col-xs-12 col-lg-8 col-md-8" >
       <h4> <strong>{{track.name}}</strong></h4>
        {{track.description}}
     </div>
-    <div *ngIf="track.name != selectedName"  class="col-xs-12 col-lg-8">
+    <div *ngIf="track.name != selectedName"  class="col-xs-12 col-lg-8 col-md-8">
       <h4> {{track.name}}</h4>
     </div>
-    <div class="col-xs-12 col-lg-4">
+    <div class="col-xs-12 col-lg-4 col-md-4">
       <audio controls (mouseover)="highlightRow(this.track)">
         <source src="assets/wav/{{track.path}}" type="audio/mpeg" >
         Your browser does not support the audio element.
