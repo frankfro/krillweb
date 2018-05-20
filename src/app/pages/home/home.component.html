@@ -1,42 +1,12 @@
-<style>
-  div {
-    width: 40em;
-    height: 40em;
-    background-color: white;
-    position: relative;
-     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-     -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 11s;
-    animation-direction: reverse;
-    animation-delay: 1s;
-    animation-play-state: running;
-  }
-
-  /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:20em; top:0px;}
-    50%  {background-color:blue; left:20em; top:20em;}
-    75%  {background-color:green; left:0px; top:20em;}
-    100% {background-color:red; left:0px; top:0px;}
-  }
-
-  /* Standard syntax */
-  @keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:40em;top:20em;}
-    50%  {background-color:blue; left:0em; top:0em;}
-    75%  {background-color:green; left:0px; top:20em;}
-    100% {background-color:red; left:0px; top:0px;}
-  }
-  img {
-    max-width: 100%;
-  }
-</style>
-
-<div class="container product img-responsive">
-  <div class="row"><div class="col-md-6 col-xs-12"><img src="assets/pics/name.png" sizes="40" ></div> </div>
- <!-- <img src="assets/pics/large-icon-2.png" >-->
+<div class="media visible-lg">
+  <img src="assets/pics/name.png" sizes="20" >
+  <!-- <img src="assets/pics/large-icon-2.png" >-->
+</div>
+<div class="media visible-md pull-left">
+  <img src="assets/pics/name-xs.png" >
+  <!-- <img src="assets/pics/large-icon-2.png" >-->
+</div>
+<div class="media visible-xs pull-left">
+  <img src="assets/pics/name-xs.png" >
+  <!-- <img src="assets/pics/large-icon-2.png" >-->
 </div>
